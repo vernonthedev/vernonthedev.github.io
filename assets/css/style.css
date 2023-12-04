@@ -73,7 +73,7 @@ html[data-theme="dark"] {
 }
 
 ::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px #bb86fc;
+  -webkit-box-shadow: inset 0 0 6px #FFFF00;
   border-radius: 2px;
   background: #f1f1f1;
 }
@@ -81,8 +81,8 @@ html[data-theme="dark"] {
 ::-webkit-scrollbar-thumb {
   border-radius: 2px;
   max-height: 10px;
-  -webkit-box-shadow: inset 0 0 6px #bb86fc;
-  background: #bb86fc;
+  -webkit-box-shadow: inset 0 0 6px #FFFF00;
+  background: #FFFF00;
   transition: 0.3s;
 }
 
@@ -116,7 +116,7 @@ body {
 #btnScrollToTop {
   width: 50px;
   height: 50px;
-  background-color: #bb86fc;
+  background-color: #FFFF00;
   color: #fff;
   margin: 8px;
   border: none;
@@ -278,7 +278,7 @@ html {
 .dark_toggler:checked:before {
   transform: translate(150%);
   transition: all 0.9s;
-  background-color: #bb86fc;
+  background-color: #FFFF00;
 }
 /* end of dark mode toggle switch button */
 
@@ -433,7 +433,7 @@ html[light-mode="light"] .nav-link{
   color: #000000 !important;
 }
 html[light-mode="light"] .nav-link:hover{
-  color: 	rgb(106, 0, 187) !important;
+  color: 	#FFFF00 !important;
 }
 html[light-mode="light"] .navbar-brand:hover{
   color: #000000 !important;
@@ -517,6 +517,7 @@ html[light-mode="light"] .navbar-brand:hover{
   padding-top: 10px;
   font-family: "Poppins", sans-serif;
   background-color: #121212;
+  font-weight: bold;
 }
 
 .tag {
@@ -800,7 +801,7 @@ Contact Form In Footer
   font-size: 25px;
   font-weight: 200;
   line-height: 22px;
-  border-bottom: 3px solid #bb86fc;
+  border-bottom: 3px solid #FFFF00;
 }
 
 .form-header {
@@ -821,7 +822,7 @@ form {
 */
 
 .form-style-6 {
-  font: 95% Arial, Helvetica, sans-serif;
+  font: 95% "Poppins";
   max-width: 400px;
   margin: 10px auto;
   padding: 16px;
@@ -829,7 +830,7 @@ form {
 }
 
 .form-style-6 h1 {
-  background: #bb86fc;
+  background: yellow;
   font-size: 140%;
   font-weight: 300;
   text-align: center;
@@ -859,7 +860,7 @@ form {
   background: transparent;
   margin-bottom: 4%;
   border: #000;
-  border-bottom: 2px solid #bb86fc;
+  border-bottom: 2px solid #FFFF00;
   padding: 3%;
   color: rgb(107, 105, 105);
   font: 95% Arial, Helvetica, sans-serif;
@@ -876,9 +877,9 @@ form {
 .form-style-6 input[type="url"]:focus,
 .form-style-6 textarea:focus,
 .form-style-6 select:focus {
-  box-shadow: 0 0 5px #bb86fc;
+  box-shadow: 0 0 5px yellow;
   padding: 3%;
-  border: 1px solid #bb86fc;
+  border: 1px solid yellow;
   border-radius: 2px;
 }
 
@@ -890,8 +891,8 @@ form {
   width: 100%;
   margin-top: 2rem;
   padding: 3%;
-  background: #bb86fc;
-  border-bottom: 2px solid #bb86fc;
+  background: yellow;
+  border-bottom: 2px solid yellow;
   border-radius: 23px;
   border-top-style: none;
   border-right-style: none;
@@ -902,7 +903,7 @@ form {
 
 .form-style-6 input[type="submit"]:hover,
 .form-style-6 input[type="button"]:hover {
-  background:#6a00bbd2;;
+  background:yellow;;
 
 }
 
@@ -1031,7 +1032,7 @@ outline: none;
   border-radius: 50px;
   border-style: none;
   transition: 0.5s ease background-color, 0.5s ease box-shadow;
-  background: #bb86fc;
+  background: #FFFF00;
 }
 #lnch_btn {
   position: absolute;

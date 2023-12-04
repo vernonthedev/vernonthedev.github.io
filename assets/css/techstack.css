@@ -80,8 +80,8 @@ html[light-mode="light"] .tech_card{
     
 }
 .main-heading .my_techstacks{
-    color: #4e00bb;
-    text-shadow: 0px 0px 15px #4e00bb;
+    color: #FFFF00;
+    text-shadow: 0px 0px 15px #FFFF00;
 }
 html[light-mode="light"] .main-heading .my_techstacks{
     text-shadow: none !important;
@@ -91,8 +91,8 @@ html[light-mode="light"] .main-heading .my_techstacks{
     font-weight: 700;
 }
 .skill-head .my_skill{
-    color: #4e00bb;
-    text-shadow: 0px 0px 15px #4e00bb;
+    color: #FFFF00;
+    text-shadow: 0px 0px 15px #FFFF00;
 }
 html[light-mode="light"] .skill-head .my_skill{
     text-shadow: none !important;
@@ -275,7 +275,7 @@ div.techstack_icon>i.fa-cuttlefish {
     text-decoration: none;
 }
 html[light-mode="light"] .project_item a{
-    color: #4e00bb ;
+    color: #FFFF00 ;
     text-decoration: none;
 }
 @media (max-width:1180px){
