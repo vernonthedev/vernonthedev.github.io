@@ -73,7 +73,7 @@ html[data-theme="dark"] {
 }
 
 ::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px #FFFF00;
+  -webkit-box-shadow: inset 0 0 6px #6f42c1;
   border-radius: 2px;
   background: #f1f1f1;
 }
@@ -81,8 +81,8 @@ html[data-theme="dark"] {
 ::-webkit-scrollbar-thumb {
   border-radius: 2px;
   max-height: 10px;
-  -webkit-box-shadow: inset 0 0 6px #FFFF00;
-  background: #FFFF00;
+  -webkit-box-shadow: inset 0 0 6px #6f42c1;
+  background: #6f42c1;
   transition: 0.3s;
 }
 
@@ -116,7 +116,7 @@ body {
 #btnScrollToTop {
   width: 50px;
   height: 50px;
-  background-color: #FFFF00;
+  background-color: #6f42c1;
   color: #fff;
   margin: 8px;
   border: none;
@@ -278,7 +278,7 @@ html {
 .dark_toggler:checked:before {
   transform: translate(150%);
   transition: all 0.9s;
-  background-color: #FFFF00;
+  background-color: #6f42c1;
 }
 /* end of dark mode toggle switch button */
 
@@ -433,7 +433,7 @@ html[light-mode="light"] .nav-link{
   color: #000000 !important;
 }
 html[light-mode="light"] .nav-link:hover{
-  color: 	#FFFF00 !important;
+  color: 	#6f42c1 !important;
 }
 html[light-mode="light"] .navbar-brand:hover{
   color: #000000 !important;
@@ -801,7 +801,7 @@ Contact Form In Footer
   font-size: 25px;
   font-weight: 200;
   line-height: 22px;
-  border-bottom: 3px solid #FFFF00;
+  border-bottom: 3px solid #6f42c1;
 }
 
 .form-header {
@@ -860,7 +860,7 @@ form {
   background: transparent;
   margin-bottom: 4%;
   border: #000;
-  border-bottom: 2px solid #FFFF00;
+  border-bottom: 2px solid #6f42c1;
   padding: 3%;
   color: rgb(107, 105, 105);
   font: 95% Arial, Helvetica, sans-serif;
@@ -1032,7 +1032,7 @@ outline: none;
   border-radius: 50px;
   border-style: none;
   transition: 0.5s ease background-color, 0.5s ease box-shadow;
-  background: #FFFF00;
+  background: #6f42c1;
 }
 #lnch_btn {
   position: absolute;

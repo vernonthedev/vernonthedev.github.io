@@ -97,7 +97,7 @@ section > div {
 
 /*color of experience page headings*/
 .my_experience {
-  color: #FFFF00;
+  color: #6f42c1;
 }
 
 .sub-heading {
@@ -655,7 +655,7 @@ ul ol {
 }
 .blog-slider__button {
   display: inline-flex;
-  background-image: linear-gradient(147deg, #FFFF00 0%, #940eb5 74%);
+  background-image: linear-gradient(147deg, #6f42c1 0%, #940eb5 74%);
   padding: 15px 35px;
   border-radius: 50px;
   color: #fff;
